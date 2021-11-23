@@ -1,0 +1,22 @@
+{
+  "name": "gulp_teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bump-version:dev": "gulp ng-bump-version --configuration=hml",
+    "build:dev": "npm run bump-version:dev",
+    "version:dev": "gulp update-version --configuration=hml"
+  },
+  "author": "honatel",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-git": "^2.10.1",
+    "gulp-notify": "^4.0.0",
+    "gulp-replace": "^1.1.3",
+    "minimist": "^1.2.5",
+    "run-sequence": "^2.2.1"
+  }
+}

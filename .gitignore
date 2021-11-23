@@ -1,0 +1,17 @@
+# package directories
+node_modules
+jspm_packages
+
+.build
+
+# Serverless directories
+.serverless
+
+# Webpack directories
+.webpack
+lib
+build
+coverage
+.nyc_output
+junitresults.xml
+scanapi-report.html
